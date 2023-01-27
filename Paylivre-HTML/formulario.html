@@ -65,6 +65,7 @@
         
         <!--Input text-->
         
+        <br>
         <input 
         type="text"
         placeholder="Preencha seu nome"
@@ -75,7 +76,7 @@
         required
         disabled
         readonly>
-
+        <br>
         <!--Input number-->
 
         <br>
@@ -87,7 +88,7 @@
         minlength="2"
         maxlength="2"
         title="Você precisa colocar mais do que 8 caracteres e menos do que 20 caracteres.">
-
+        <br>
         <!--Input email-->
 
         <br>
@@ -99,10 +100,8 @@
         title="Digite seu e-mail"
         required>
         <br>
-        <br>
-        <button type="submit">Enviar</button>
 
-        <!--Input email-->
+        <!--Input senha-->
 
         <br>
         <br>
@@ -113,8 +112,78 @@
         title="Digite sua senha"
         required>
         <br>
+
+        <!--Input Pattern-->
+
+        <br>
+        <br>
+        <input 
+        type="password"
+        placeholder="Digite os seus dados"
+        size="30"
+        title="Sua senha precisa ser em hexadecimal"
+        pattern="[0-9a-fA-F]{4,8}"
+        inputmode="numeric"
+        required>
+
+        <!--Input Hidden-->
+
+        <br>
+        <br>
+        <input type="hidden" value="Eu estou escondido =)">
+
+        <!--Input Color-->
+
+        <input type="color">
+
+        <br>
         <br>
         <button type="submit">Enviar</button>
     </fieldset>
-</form>
+<br>
+<br>
+    <fieldset>
+        <legend>Trabalhando com Inputs</legend>
+        <label for="area">Seu interesse maior é por qual área?</label>
+        <br>
+        <br>
+        <div>
+            <input 
+            type="checkbox" 
+            name="interesse" 
+            id="frontend"
+            value="Front-End Luan Monteiro"
+            checked> 
+            Front-End Luan Monteiro
+            
+            <input 
+            type="checkbox" 
+            name="interesse" 
+            id="backend" 
+            value="Back-End Regis Santos"> 
+            Back-End Regis Santos
+            
+            <input 
+            type="checkbox" 
+            name="interesse" 
+            id="designuiux" 
+            value="Design UI/UX Jenifer Vieira"> Design UI/UX Jenifer Vieira
+        </div>
+        <br>
+        <br>
+        <br>
+        
+        <!--Interesses = Front-End Luan Monteiro, Back-End Regis Santos, Design UX/UI Jeniver Vieira... -->
 
+        <!--Radio Button-->
+        <h2>Deseja receber notificacão da be.academy?</h2>
+        <label for="yes">Sim</label>
+         <input type="radio" id="yes" value="yes" name="notification" checked>       
+        <label for="not">Não</label>
+        <input type="radio" id="not" value="not" name="notification">
+        <br>
+        <br>
+        <br>
+        <button type="reset">OK</button>
+    </fieldset>
+</form>

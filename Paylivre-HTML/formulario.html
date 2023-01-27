@@ -239,6 +239,64 @@
             multiple
             name=""
             id="">
+            <br>
+            <br>
+        </fieldset>
+
+        <br>
+        <br>
+        <br>
+
+            <!--    
+                <textarea>
+                    * Elemento de texto com mais de 1 linha
+                    * Muito utilizado em textos maiores
+            -->
+        <fieldset>
+            <legend>Text Area</legend>
+            <br>
+            <label for="message"><strong>Mensagem</strong></label>
+            <br>
+            <br>
+            <textarea 
+            name="message" 
+            id="message" 
+            cols="30" 
+            rows="10"
+            maxlength="100"
+            minlength="30"
+            wrap="soft"></textarea>
+        </fieldset>
+        <br>
+        <br>
+        <br>
+        
+        <!--
+                <optgroup>
+                    * Elemento utilizado para agrupar uma sequência de selecoes ou opcoes
+        -->
+        <fieldset>
+            <legend>Opt group</legend>
+            <br>
+            <label for="message"><strong>Escolha seu professor</strong></label>
+            <br>
+            <br>
+            <select name="prof" multiple>
+                <optgroup label="Professores">
+                    <option value="Luan" disabled>Luan</option>
+                    <option value="Jenife">Jenife</option>
+                    <option value="Roger">Roger</option>
+                    <option value="Moacir">Moacir</option>
+                </optgroup>
+                <optgroup label="Cursos">
+                    <option value="">Front-End</option>
+                    <option value="">Back-End</option>
+                    <option value="">Design UX/UI</option>
+                    <option value="">DevOps</option>
+                </optgroup>
+            </select>
+            <br>
+            <br>
         </fieldset>
         <br>
         <br>

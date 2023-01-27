@@ -4,12 +4,15 @@
     method (get - padrão)
 -->
 <!--https://meusite.com.br/?home=camilaxavier&idade=20-->
+
 <form id="form-contato" action="submit" method="post">
     <fieldset name="contato" form="form-contato">
         <legend>Preencha o formulário de contato</legend>
     </fieldset>
+    <br>
 
     <!-- Button -->
+
     <button type="submit">Enviar</button>
     <button type="reset">Limpar</button>
     <button type="button" id="" name="" class="">Atributos</button>
@@ -23,6 +26,7 @@
                 - for
                     * Usado para fazer a conexão com outros tipos de elementos de formulários
     -->
+
 </form>
 <br>
 <br>
@@ -30,6 +34,7 @@
     <fieldset>
         <legend>Preencha o formulário de contato</legend>
     </fieldset>
+    <br>
     <label>
         Nome:
         <input type="text" id="nome">
@@ -38,6 +43,7 @@
         Idade:
     </label>
     <input type="number" id="age">
+    
     <!--
         <datalist>
             * Lista de valores com sugestões para algum elemento input
@@ -49,6 +55,66 @@
         <option>Jenifer</option>
         <option>Regis</option>
     </datalist>
+    <br>
+    <br>
     <input type="text" list="prof-list" placeholder="Lista de professores">
+    <br>
+    <br>
+    <fieldset>
+        <legend>Trabalhando com Inputs</legend>
+        
+        <!--Input text-->
+        
+        <input 
+        type="text"
+        placeholder="Preencha seu nome"
+        size="30"
+        minlength="8"
+        maxlength="20"
+        title="Você precisa colocar mais do que 8 caracteres e menos do que 20 caracteres."
+        required
+        disabled
+        readonly>
+
+        <!--Input number-->
+
+        <br>
+        <br>
+        <input 
+        type="number"
+        placeholder="Digite um número "
+        size="30"
+        minlength="2"
+        maxlength="2"
+        title="Você precisa colocar mais do que 8 caracteres e menos do que 20 caracteres.">
+
+        <!--Input email-->
+
+        <br>
+        <br>
+        <input 
+        type="email"
+        placeholder="Preencha seu email"
+        size="30"
+        title="Digite seu e-mail"
+        required>
+        <br>
+        <br>
+        <button type="submit">Enviar</button>
+
+        <!--Input email-->
+
+        <br>
+        <br>
+        <input 
+        type="password"
+        placeholder="Preencha com sua senha"
+        size="30"
+        title="Digite sua senha"
+        required>
+        <br>
+        <br>
+        <button type="submit">Enviar</button>
+    </fieldset>
 </form>
 

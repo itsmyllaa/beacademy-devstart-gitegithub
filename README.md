@@ -1,1 +1,1 @@
-# Acompanhamento do curso de Git e Github
+# Treinamento Front-End (Empreendev) Be Academy 

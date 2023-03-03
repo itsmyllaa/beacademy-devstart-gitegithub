@@ -1,3 +1,3 @@
 # Treinamento Front-End (Empreendev) Be Academy 
 
-repositório vitrine
+Repositório para fins de acompanhamento
